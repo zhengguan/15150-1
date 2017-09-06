@@ -1,0 +1,10 @@
+# Makefile for 15-150 f13 hw12
+# NOTE: if emergency arises and the current Makefile fails, then enter in your command line
+# mv IN_CASE_OF_EMERGENCY Makefile
+# and type "make" and submit as you've done in the past
+
+all:
+	tar -cf hw12.tar code/countingdict.sml code/lazy.sml code/memo.sml
+
+clean:
+	rm -rf hw12.tar

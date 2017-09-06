@@ -1,0 +1,11 @@
+group is
+	$/basis.cm
+
+        sequence-sig.sml
+        sequencecore-sig.sml
+        derivesequence.sml
+
+	vectorcore.sml
+	vectorsequence.sml
+        
+        seq.sml 

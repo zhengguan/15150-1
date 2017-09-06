@@ -1,0 +1,21 @@
+group is
+      $/basis.cm
+      ../../../src/sequence/sources.cm
+      lib/bbox.sig
+      lib/bbox.sml
+      lib/bhargs.sig
+      lib/bh.sig
+      lib/makeplane.sml
+      lib/mechanics.sig
+      lib/mechanics.sml
+      lib/planeargs.sig
+      lib/ratplaneargs.sml
+      lib/realplaneargs.sml
+      lib/scalar.sig
+      lib/solars.sml
+      lib/space.sig
+      lib/makescalar.sml
+      naiveNBody.sml
+      lib/simulation.sml
+      lib/transcripts.sml
+

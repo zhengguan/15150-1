@@ -1,0 +1,10 @@
+# Makefile for 15-150 f13 hw10
+# NOTE: if emergency arises and the current Makefile fails, then enter in your command line
+# mv IN_CASE_OF_EMERGENCY Makefile
+# and type "make" and submit as you've done in the past
+
+all:
+	tar -cf hw11.tar code/graphseq.sml code/alphabeta.sml code/riskless.sml code/jamboree.sml
+
+clean:
+	rm -rf hw09.tar

@@ -1,0 +1,15 @@
+group is
+	$/basis.cm
+
+	../../../src/sequence/sources.cm
+
+	util.sig
+	util.sml
+	marshal.sig
+	marshalpair.sig
+	sequences.sml
+	marshal.sml
+
+
+
+

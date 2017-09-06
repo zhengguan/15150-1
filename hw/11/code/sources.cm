@@ -1,0 +1,26 @@
+group is
+  $/basis.cm
+  ../../../src/sequence/sources.cm
+  explicit.sml
+  ../../../src/ordered/sources.cm
+  minimax.sml
+  sequtils.sml
+
+  game.sig
+  map.sig
+  estimate.sig
+  player.sig
+  printer.sig
+  printer.sml
+  estimate.sml
+  humanplayer.sml
+  alphabeta.sml
+  jamboree.sml
+  referee.sml
+
+  riskless.sml
+  runriskless.sml
+
+  (* Include graphs *)
+  graphseq.sig
+  graphseq.sml

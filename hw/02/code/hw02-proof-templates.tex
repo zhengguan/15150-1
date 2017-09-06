@@ -1,0 +1,113 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+
+\oddsidemargin0cm
+\topmargin-2cm     %I recommend adding these three lines to increase the
+\textwidth16.5cm   %amount of usable space on the page (and save trees)
+\textheight23.5cm
+
+\newcommand{\question}[2] {\vspace{.25in} \hrule\vspace{0.5em}
+\noindent{\bf #1: #2} \vspace{0.5em}
+\hrule \vspace{.10in}}
+\renewcommand{\part}[1] {\vspace{.10in} {\bf (#1)}}
+
+\newcommand{\sml}[1]{\texttt{#1}}
+\newcommand{\hasType}[2]{#1: #2}
+\newcommand{\step}{\ensuremath{\Rightarrow}}
+\newcommand{\stepstar}{\ensuremath{\step ^*}}
+\newcommand{\stepplus}{\ensuremath{\step ^+}}
+
+\newcommand{\myname}{Your Name}
+\newcommand{\myandrew}{your-andrew-id@andrew.cmu.edu}
+\newcommand{\myhwnum}{2}
+
+\pagestyle{fancyplain}
+\lhead{\fancyplain{}{\textbf{HW\myhwnum}}}      % Note the different brackets!
+\rhead{\fancyplain{}{\myname\\ \myandrew}}
+\chead{\fancyplain{}{15-150}}
+
+\begin{document}
+
+\medskip
+
+\thispagestyle{plain}
+\begin{center}                  % Center the following lines
+{\Large 15-150 Assignment \myhwnum} \\
+\myname \\
+\myandrew \\
+Day Month Year\\
+\end{center}
+
+\question{Section}{2}
+\medskip
+\noindent\part{6}
+
+\begin{align*}
+&\quad\;\; \sml{decimal (5 + 5)}\\
+&= \ldots && \text{Justifications} \\
+&= [0, 1]
+\end{align*}
+
+\medskip
+\noindent\part{7}
+
+\begin{align*}
+&\quad\;\; \sml{decimal (5 + 5)}\\
+&\stepstar \ldots \\
+&\stepstar [0, 1]
+\end{align*}
+
+\question{Section}{4}
+\medskip
+\noindent\part{1}
+\paragraph{Theorem:}
+For all integer lists \sml{L} such that \sml{L} is \sml{all zeroes}, \sml{eval L} = \sml{0}.\\\\
+
+\noindent The proof is by structural induction on \sml{L}.\\\\
+\textbf{Base Case:} \quad  Prove for $\sml{L}=\sml{[]}$\\
+\textbf{Need to show:} \\
+Showing:
+\begin{align*}
+&\quad\;\;  \sml{eval []}\\
+& \stepstar \ldots && \text{Justifications}
+\end{align*}
+\\\\
+\textbf{Inductive Step:} \quad Prove for \sml{L} = \sml{x::R}\\
+\textbf{Inductive Hypothesis:} \\
+\textbf{Need to show:} \\
+Showing:
+\begin{align*}
+&\quad\;\; \sml{eval (x::R)}\\ 
+& \stepstar \ldots && \text{Justifications}
+\end{align*}
+\\
+By the Base Case and Inductive Step, the claim is true.\\\\
+
+\noindent\part{2}\\
+\paragraph{Theorem:} 
+For all natural numbers \sml{n}, \sml{sumOdd n} = \sml{n*n}.\\\\
+
+\noindent The proof is by structural induction on \sml{n}.
+
+\noindent\textbf{Base Case:}\quad Prove for \sml{n=0}.\\
+\textbf{Need to Show:} \\
+Showing:
+\begin{align*}
+&\quad\;\;  \sml{sumOdd 0}\\
+&= \ldots && \text{Justifications}
+\end{align*}
+\\\\
+\noindent\textbf{Induction Step:} \quad Prove for \sml{n+1}\\
+\textbf{Inductive Hypothesis:} \\
+\textbf{Need to show:} \\
+Showing:
+\begin{align*}
+&\quad\;\;  \sml{sumOdd (n+1)}\\
+&= \ldots && \text{Justifications}
+\end{align*}
+\\
+Thus we have shown for all $n$, \sml{sumOdd(n)} = \sml{n*n}.\\
+\end{document}

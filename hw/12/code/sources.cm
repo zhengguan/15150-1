@@ -1,0 +1,19 @@
+Group is
+$/basis.cm
+
+../../../src/ordered/sources.cm
+dict.sig
+treedict.sml
+
+countingdict.sig
+countingdict.sml
+
+lazylist.sig
+lazylist.sml
+lazy.sig
+lazy.sml
+
+fibo.sig
+memo.sig
+memo.sml
+memo_reference.sml

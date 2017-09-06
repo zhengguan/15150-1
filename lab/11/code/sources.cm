@@ -1,0 +1,8 @@
+group is
+	$/basis.cm
+
+     ../../../src/sequence/sources.cm
+
+	lab11.sml
+
+

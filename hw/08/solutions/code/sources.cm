@@ -1,0 +1,20 @@
+group is
+	$/basis.cm
+
+	(* Question 2 *)
+	exceptions.sml
+
+	(* Question 3 *)
+	treefind.sml
+
+	(* Question 4 *)
+	../../code/typedef.sig
+	../../code/stack.sig
+	stack.sml
+
+	(* Question 6 *)
+	../../code/order.sml
+	../../code/dict.sig
+	fundict.sml
+	treedict.sml
+	../../code/dictclient.sml

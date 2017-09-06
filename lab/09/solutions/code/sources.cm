@@ -1,0 +1,15 @@
+Group is
+   $/basis.cm
+
+   ../../code/intset.sig
+   ListSets.sml
+   TreeSets.sml
+
+   (* We could get away with this not being a module,
+    *  but we're putting it here so all you have to
+    *  type is `CM.make "sources.cm"`, rather than
+    *  having to type `CM.make ...` for the modules and
+    *  `use FindException.sml` for the other activity.
+    *)
+   FindException.sml
+

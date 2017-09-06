@@ -1,0 +1,15 @@
+(* Note: You should add the names of the files that you create for this lab below *)
+
+Group is
+	$/basis.cm
+
+	set.sig
+	equal.sig
+
+	dictset.sml
+	(* setofsets.sml *)
+	(* pairset.sml *)
+  (* rbtree.sml *)
+
+	dict.sig
+	dict.sml
